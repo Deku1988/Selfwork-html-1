@@ -13,8 +13,10 @@
 <body>
     <header>
         <!-- Navbar principale logo + link -->
-        <nav>
-            <div> <img src="./media/logo aulab.jpg" alt="logo aulab"></div>
+        
+        
+        <nav class="first-nav">
+            <div> <img class="logo" src="./media/logo aulab.jpg" alt="logo aulab"></div>
             
             <div>
                 <ul class="img">
@@ -25,33 +27,39 @@
                     <li><a href="./Prova link.html">Lavora con Noi</a></li>
                     <li><a href="./Prova link.html">Sei un'azienda</a></li>
                 </ul>    
-            </div>   
+            </div>
+
+            <div class="tasti">
+                <button class="test">Search</button>
+                <button class="test">Iscriviti</button>
+            </div>
             
-            <button class="test">search</button>
-            
-            <button class="test">iscriviti</button>
         </nav>
         
-        <!-- Navbar secondaria home+blog -->
-        <h1>Blog</h1>
-        <nav>
-            <span><a href="">Home</a></span>
-            <span><a href="">Blog</a></span>
-        </nav>
     </header>
-    <main>
-        
+
+      <!-- Navbar secondaria home+blog -->
+      <nav class="second-nav">
+        <h1>Blog</h1>
+        <span><a href="">Home</a></span>
+        <span><a href="">Blog</a></span>
         <h2>Articoli in evidenza</h2>
+    </nav>
+    
+    
+    <main class="flex">
+        
         
         <!-- Sezione html -->
-        <section>
-            <header>
-                <figure>
-                    <img src="./media/HTML-e-come-impararlo_ORIZZONTALE-768x432.jpg" alt="Blog HTML">
-                </figure>
+         
+         
+        <section class="article">
+            
+                <img src="./media/HTML-e-come-impararlo_ORIZZONTALE-768x432.jpg" alt="Blog HTML">
+    
                 <data value="">31/08/2021</data>
                 <h3>Cos'è il linguaggio HTML</h3>
-            </header>
+            
             <article>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam labore doloremque libero voluptate nemo alias sunt dolor. Quaerat asperiores esse cum nemo. Praesentium ipsam dolorum nesciunt commodi sit labore obcaecati.
@@ -63,15 +71,14 @@
         
         
         <!-- Sezione Java  -->
-        <section>
-            <header>
-                <figure>
-                    <img src="./media/articolo_programmare_Javascript-768x432.jpg" alt="Blog JAVA">
-                </figure>
-                <data value="">21/12/2020</data>
-                <h1>Corso Javascript online: cosa c'è da sapere</h1>
-            </header>
+        <section class="article">
             
+                
+                    <img src="./media/articolo_programmare_Javascript-768x432.jpg" alt="Blog JAVA">
+                
+                <data value="">21/12/2020</data>
+                <h3>Corso Javascript online: cosa c'è da sapere</h3>
+             
             <article>  <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam labore doloremque libero voluptate nemo alias sunt dolor. Quaerat asperiores esse cum nemo. Praesentium ipsam dolorum nesciunt commodi sit labore obcaecati.
             </p></article>
@@ -81,14 +88,14 @@
         
         <!-- Sezione PHP  -->
         
-        <section>
-            <header>
-                <figure>
+        <section class="article">
+            
+        
                     <img src="./media/articolo_programmare_in_php-768x432.jpg" alt="Blog PHP">
-                </figure>
+                
                 <data value="">01/12/2020</data>
-                <h1>Come imparare a programmare con un corso PHP</h1>
-            </header>
+                <h3>Come imparare a programmare con un corso PHP</h3>
+            
             
             <article>  <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam labore doloremque libero voluptate nemo alias sunt dolor. Quaerat asperiores esse cum nemo. Praesentium ipsam dolorum nesciunt commodi sit labore obcaecati.
@@ -96,6 +103,8 @@
             
             <button><a href="./Blog.html">Leggi tutto</a></button> 
         </section>
+
+        </div>
         
         
         
